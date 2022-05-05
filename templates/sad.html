@@ -13,7 +13,9 @@
 
     <title>Music Player</title>
   </head>
-  <body>
+  <body style="background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  ">
     <h1>Sad Music Player</h1>
 
     <div class="music-container" id="music-container">
@@ -24,7 +26,7 @@
         </div>
       </div>
 
-      <audio src="static/Songs/Happy_songs/Manase Guvvai.mp3" id="audio"></audio>
+      <audio src="static/Songs/Motivational_songs/Asha Pasham.mp3" id="audio"></audio>
 
       <div class="img-container">
         <img src="static/images/ukulele.jpg" alt="music-cover" id="cover" />
@@ -43,6 +45,6 @@
     </div>
     
 
-    <script src="{{url_for('static', filename='script.js')}}"></script>
+    <script src="{{url_for('static', filename='sad.js')}}"></script>
   </body>
 </html>
